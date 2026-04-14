@@ -27,6 +27,7 @@
         .hint { font-size: 0.85em; color: #6c757d; margin-top: 4px; }
         .required { color: #e74c3c; }
     </style>
+    <p th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2171403 | 성명: 김관중'}"></p>
 </head>
 <body>
 

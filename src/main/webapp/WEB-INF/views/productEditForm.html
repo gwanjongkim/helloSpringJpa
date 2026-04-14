@@ -37,6 +37,7 @@
         .required { color: #e74c3c; }
         .editing-badge { display: inline-block; background: #e67e22; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.8em; margin-left: 8px; vertical-align: middle; }
     </style>
+    <p th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2171403 | 성명: 김관중'}"></p>
 </head>
 <body>
 
